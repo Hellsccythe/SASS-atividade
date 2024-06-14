@@ -1,0 +1,12 @@
+{
+  "name": "sass-atividade",
+  "version": "1.0.0",
+  "description": "atividade de modulo",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass source/main.scss build/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Eduardo Oliveira Mendes",
+  "license": "ISC"
+}
