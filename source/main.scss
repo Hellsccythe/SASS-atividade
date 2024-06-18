@@ -83,16 +83,6 @@ body{
     
 }
 
-@media screen and (max-width: reset.$mobile){
-    .products {
-        display: block;
-    }
-
-    .product-item  {
-        margin-bottom: 32px;
-    }
-}
-
 @media screen and (max-width: reset.$tablet){
     .container {
         max-width: 80%;
@@ -101,5 +91,19 @@ body{
     .products {
         grid-template-columns: repeat(2, 48.5%);
         column-gap: 3%;
+        background-color: blue;
     }
 }
+
+@media screen and (max-width: reset.$mobile){
+    .products {
+        display: block;
+        background-color: red;
+    }
+
+    .product-item  {
+        margin-bottom: 32px;
+    }
+}
+
+
